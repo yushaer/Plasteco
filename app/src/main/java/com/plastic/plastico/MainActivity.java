@@ -18,9 +18,9 @@ public class MainActivity extends AppCompatActivity {
         setSupportActionBar(toolbar);
 
     }
-    public void scanbarcode(View view)
-        {
-                Intent qrscan = new Intent(MainActivity.this,getbarcode.class);
-        }
+    public void scanbarcode(View view) {
+        Intent qrscan = new Intent(MainActivity.this, getbarcode.class);
+        startActivity(qrscan);
+    }
 
 }
