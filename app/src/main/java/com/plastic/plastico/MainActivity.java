@@ -19,8 +19,14 @@ public class MainActivity extends AppCompatActivity {
 
     }
     public void scanbarcode(View view)
-        {
-                Intent qrscan = new Intent(MainActivity.this,getbarcode.class);
-        }
+    {
+        Intent qrscan = new Intent(MainActivity.this,getbarcode.class);
+        startActivity(qrscan );
+    }
+    public void login(View view)
+    {
+        Intent qrscan = new Intent(MainActivity.this,LogInRealActivity.class);
+        startActivity(qrscan );
+    }
 
 }
