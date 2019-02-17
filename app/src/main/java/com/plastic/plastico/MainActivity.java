@@ -28,5 +28,9 @@ public class MainActivity extends AppCompatActivity {
         Intent qrscan = new Intent(MainActivity.this,LogInRealActivity.class);
         startActivity(qrscan );
     }
+    public void viewBottle(View view){
+        Intent intent = new Intent(MainActivity.this, ObjectDetails.class);
+        startActivity(intent);
+    }
 
 }

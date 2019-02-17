@@ -12,6 +12,13 @@
         android:orientation="vertical">
 
         <Button
+            android:id="@+id/objectDetails"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="viewBottle"
+            android:text="Get bottle data" />
+
+        <Button
             android:id="@+id/button3"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
