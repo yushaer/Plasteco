@@ -7,8 +7,10 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.View;
 
+import com.firebase.client.Firebase;
+
 public class ObjectDetails extends AppCompatActivity {
-  //  private Firebase mref;
+    private Firebase mref;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

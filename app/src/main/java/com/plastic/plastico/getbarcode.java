@@ -15,16 +15,7 @@ public class getbarcode extends AppCompatActivity {
         setContentView(R.layout.get_barcode);
         Toolbar toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
-        cameraSource =  new Camera
-
-        FloatingActionButton fab = findViewById(R.id.fab);
-        fab.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
-                        .setAction("Action", null).show();
-            }
-        });
+        //cameraSource =  new Camera
     }
 
 }
